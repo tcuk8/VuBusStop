@@ -57,6 +57,10 @@ int drawable ic_plusone_medium_off_client 0x7f020019
 int drawable ic_plusone_small_off_client 0x7f02001a
 int drawable ic_plusone_standard_off_client 0x7f02001b
 int drawable ic_plusone_tall_off_client 0x7f02001c
+int drawable marker100px 0x7f02001d
+int drawable marker_crni80px 0x7f02001e
+int drawable marker_crveni80px 0x7f02001f
+int drawable marker_plavi80px 0x7f020020
 int id action_settings 0x7f050006
 int id hybrid 0x7f050004
 int id map 0x7f050005
