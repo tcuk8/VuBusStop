@@ -68,16 +68,16 @@ public class MapActivity extends FragmentActivity implements
 
 		MarkerOptions marker_crveni = new MarkerOptions()
 				.icon(BitmapDescriptorFactory
-						.fromResource(R.drawable.marker_crveni80px))
+						.fromResource(R.drawable.marker_crveni_48px))
 				.position(new LatLng(45.3529888303851, 18.99939396423567))
 				.title("Crveni Marker").snippet(snippet_crveni);
 
 		MarkerOptions marker_crni = new MarkerOptions()
 				.position(new LatLng(45.352733, 19.000014))
-				.title("Crni Marker")
+				.title("Plavi Marker")
 				.snippet(snippet_crni)
 				.icon(BitmapDescriptorFactory
-						.fromResource(R.drawable.marker_crni80px));
+						.fromResource(R.drawable.marker_plavi_72px));
 
 		// adding marker
 		googleMap.addMarker(marker_crveni);

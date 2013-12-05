@@ -229,11 +229,19 @@ containing a value of this type.
         public static final int marker100px=0x7f02002b;
         public static final int marker_crni80px=0x7f02002c;
         public static final int marker_crveni80px=0x7f02002d;
-        public static final int marker_plavi80px=0x7f02002e;
-        public static final int pozadina=0x7f02002f;
-        public static final int stop=0x7f020030;
-        public static final int vu=0x7f020031;
-        public static final int vubusstop_logo=0x7f020032;
+        public static final int marker_crveni_144px=0x7f02002e;
+        public static final int marker_crveni_48px=0x7f02002f;
+        public static final int marker_crveni_72px=0x7f020030;
+        public static final int marker_crveni_96px=0x7f020031;
+        public static final int marker_plavi80px=0x7f020032;
+        public static final int marker_plavi_144px=0x7f020033;
+        public static final int marker_plavi_48px=0x7f020034;
+        public static final int marker_plavi_72px=0x7f020035;
+        public static final int marker_plavi_96=0x7f020036;
+        public static final int pozadina=0x7f020037;
+        public static final int stop=0x7f020038;
+        public static final int vu=0x7f020039;
+        public static final int vubusstop_logo=0x7f02003a;
     }
     public static final class id {
         public static final int action_settings=0x7f060010;
