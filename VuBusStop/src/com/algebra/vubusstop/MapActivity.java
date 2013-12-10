@@ -23,7 +23,7 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MapActivity extends FragmentActivity implements
+public class MapActivity extends FragmentActivity implements Stanice,
 		GooglePlayServicesClient.ConnectionCallbacks,
 		GooglePlayServicesClient.OnConnectionFailedListener, LocationListener {
 
@@ -82,6 +82,7 @@ public class MapActivity extends FragmentActivity implements
 		// adding marker
 		googleMap.addMarker(marker_crveni);
 		googleMap.addMarker(marker_crni);
+		
 
 	}
 
@@ -181,6 +182,7 @@ public class MapActivity extends FragmentActivity implements
 		request.setInterval(60000);
 		request.setFastestInterval(20000);
 		mLocationClient.requestLocationUpdates(request, this);
+		
 		
 	}
 
