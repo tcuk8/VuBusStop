@@ -120,7 +120,7 @@ int string action_help 0x7f070029
 int string action_location_found 0x7f070026
 int string action_refresh 0x7f070027
 int string action_search 0x7f070025
-int string action_settings 0x7f070024
+int string action_settings 0x7f07001c
 int string app_name 0x7f07001a
 int string auth_client_needs_enabling_title 0x7f070015
 int string auth_client_needs_installation_title 0x7f070016
@@ -149,14 +149,14 @@ int string common_google_play_services_update_text 0x7f070008
 int string common_google_play_services_update_title 0x7f070007
 int string common_signin_button_text 0x7f070012
 int string common_signin_button_text_long 0x7f070013
-int string current_location 0x7f070023
-int string hello_world 0x7f07001c
-int string hybrid 0x7f070021
-int string none 0x7f070020
-int string normal 0x7f07001e
-int string sattelite 0x7f07001f
-int string terrain 0x7f070022
-int string title_activity_splash 0x7f07001d
+int string current_location 0x7f070024
+int string hello_world 0x7f07001d
+int string hybrid 0x7f070022
+int string none 0x7f070021
+int string normal 0x7f07001f
+int string sattelite 0x7f070020
+int string terrain 0x7f070023
+int string title_activity_splash 0x7f07001e
 int style AppBaseTheme 0x7f0a0000
 int style AppTheme 0x7f0a0001
 int[] styleable AdsAttrs { 0x7f010000, 0x7f010001 }
